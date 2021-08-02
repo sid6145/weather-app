@@ -16,7 +16,7 @@ console.log(weather)
     return (
         
       <div>
-        <h1>Current temperature in mumbai is { weather.current.temperature}</h1>
+        <h1>Current temperature in mumbai { weather.current.temperature}</h1>
       </div>
         
     )
