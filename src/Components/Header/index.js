@@ -1,18 +1,13 @@
 import React from 'react'
-import { makeStyles, AppBar, Toolbar, Typography } from '@material-ui/core'
+import {  AppBar, Toolbar, Typography } from '@material-ui/core'
+import './style.css'
 
-const useStyles = makeStyles(() => ({
-    navbar:{
-        backgroundColor:"#736ced"
-    }
-}))
 
 function Header(){
-    const classes = useStyles()
 
    return(
         <AppBar position="static">
-            <Toolbar  className={classes.navbar}>
+            <Toolbar  className="navbar">
                 <Typography variant="h5">Weather</Typography>
             </Toolbar>
         </AppBar>
